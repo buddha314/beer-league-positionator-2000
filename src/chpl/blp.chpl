@@ -33,7 +33,7 @@ module Blp2000 {
     writeln(randomTeam);
 
     writeln("Permuted order... ");
-    i = 0;
+    i = 1;
     for ix in randomTeam {
       write("selection ", i);
       write("  player id ", ix);
